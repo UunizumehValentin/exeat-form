@@ -3,22 +3,22 @@ import studentReducer from "../componenets/reducers/studentReducer";
 
 const initialstudents = [
   {
-    name: "Valentine nuobetah",
+    name: "Valentine Nuobetah",
     level: "200",
     date: "01/12/12",
-    indexNo: "UNV001",
+    indexNo: "UV001",
   },
   {
-    name: "Emelia nuobetah",
+    name: "Emelia Tengan",
     level: "400",
     date: "14/02/19",
-    indexNo: "UNV026",
+    indexNo: "UN026",
   },
   {
-    name: "Vitus nuobetah",
+    name: "Vitus Uunizumehh",
     level: "600",
     date: "23/10/21",
-    indexNo: "UNV022",
+    indexNo: "NV022",
   },
 ];
 

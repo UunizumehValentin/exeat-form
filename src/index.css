@@ -40,4 +40,8 @@ input {
   justify-content: center;
   margin-left: 35%;
   margin-top: 20px;
+  border-radius: 50px 20px;
+}
+body {
+  background: rgb(209, 211, 214);
 }

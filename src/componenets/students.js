@@ -16,7 +16,7 @@ export function Students() {
           <button
             className="ben"
             onClick={() =>
-              dispatch({ type: "delete", payload: students.indexNo })
+              dispatch({ type: "DELETE", indexNo: student.indexNo })
             }
           >
             Delete

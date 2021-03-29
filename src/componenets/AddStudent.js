@@ -10,7 +10,7 @@ export function AddStudent() {
 
   const onsubmit = (e) => {
     e.preventDefault();
-    dispatch({ tpye: "addSubmit", payload: { name, level, date, indexNo } });
+    dispatch({ type: "ADDSTUDENT", payload: { name, level, date, indexNo } });
   };
   return (
     <form className="form-one" onSubmit={onsubmit}>
