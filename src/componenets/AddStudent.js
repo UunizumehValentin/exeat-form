@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { StudentContext, studentcontext } from "../context/StudentContext";
+import { StudentContext } from "../context/StudentContext";
 
 export function AddStudent() {
   const { dispatch } = useContext(StudentContext);
