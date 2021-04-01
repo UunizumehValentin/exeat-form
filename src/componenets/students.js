@@ -13,6 +13,8 @@ export function Students() {
           <h3>{student.level}</h3>
           <h4>{student.date}</h4>
           <h2>{student.indexNo}</h2>
+          <h3>{student.gender}</h3>
+          <h4>{student.reason}</h4>
           <button
             className="ben"
             onClick={() =>

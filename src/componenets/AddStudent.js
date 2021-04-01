@@ -7,10 +7,15 @@ export function AddStudent() {
   const [level, setLevel] = useState();
   const [date, setDate] = useState();
   const [indexNo, setIndexNo] = useState();
+  const [gender, setGender] = useState();
+  const [reason, setRea] = useState();
 
   const onsubmit = (e) => {
     e.preventDefault();
-    dispatch({ type: "ADDSTUDENT", payload: { name, level, date, indexNo } });
+    dispatch({
+      type: "ADDSTUDENT",
+      payload: { name, level, date, indexNo, gender },
+    });
   };
   return (
     <form className="form-one" onSubmit={onsubmit}>
@@ -38,6 +43,18 @@ export function AddStudent() {
         placeholder="index number"
         required
         onChange={(e) => setIndexNo(e.target.value)}
+      />
+      <input
+        type="gender"
+        placeholder="enter gender"
+        required
+        onChange={(e) => setGender(e.target.value)}
+      />
+      <input
+        type="text"
+        placeholder="enter reason"
+        required
+        onChange={(e) => setGender(e.target.value)}
       />
       <button className="btn">ADD</button>
     </form>
